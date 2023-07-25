@@ -28,14 +28,13 @@
     font-size: clamp(1rem,9rem,7rem);
     font-weight: 700;
     white-space: nowrap;
-    color: whitesmoke;
+    color: var(--clr-light);
   
 }
 
 h1 span {
     font-size: clamp(1rem,9rem,7rem);
     font-weight: 700;
-    white-space: nowrap;
     color: var(--clr-mid);
   
 }

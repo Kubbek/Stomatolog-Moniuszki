@@ -1,22 +1,55 @@
-.services {
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
+.services-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+
+}
 
 .services-card {
     margin: auto;
-    width: 500px;
+    width: 420px;
     height: 500px;
     background-color: var(--clr-main);
     border-radius: 20px;
     box-shadow: 0 0 30px var(--clr-main);
+    color: var(--clr-light);
 }
 
 .card-img {
+    margin: auto;
     padding-top:5%;
     height: 25%;
+}
+
+.card-text {
     margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.services-card h2 {
+    margin: auto;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-size: 22px;
+}
+
+.services-card p {
+    margin-top: 2%;
+    margin-left: 5%;
+    font-size: 18px;
+}
+.no-padding {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.title {
+    width: 100%;
+    margin: auto;
+}
+
+.center {
+ width: fit-content;
+margin: auto;
 }
