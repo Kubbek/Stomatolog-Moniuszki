@@ -1,11 +1,12 @@
 @import url(css/reset.css);
 @import url(css/nav.css);
-
+@import url(css/aboutUs.css);
+@import url(css/cards.css);
 
 :root {
-  --clr-main:#20574C;
+  --clr-main:#19554b;
   --clr-mid: #13B192;
-  --clr-light: #f5f5dc;
+  --clr-light: #1C1E26;
   
   --size-100: 0.25rem;
   --size-200: 0.5rem;
@@ -23,6 +24,15 @@
   font-family: "Be Vietnam Pro", sans-serif;
 }
 
+body {
+  background-color: var(--clr-light);
+}
+
+section{
+  min-height: 70vh;
+  display: flex;
+}
+
 .visually-hidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -31,4 +41,17 @@
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
 }

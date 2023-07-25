@@ -1,0 +1,59 @@
+.about-us {
+    margin: auto;
+    display: flex;
+}
+
+.about-img{
+    width: 50%;
+    max-height: auto;
+    
+}
+.img-modified{
+    object-fit:scale-down ;
+}
+
+.about-text {
+    padding-top: 10vh;
+    max-width: 60%;
+    margin: auto;
+    display: flex;
+    gap: clamp(2rem, 5rem, 8rem);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;   
+}
+
+ h1  {
+    font-size: clamp(1rem,9rem,7rem);
+    font-weight: 700;
+    white-space: nowrap;
+    color: whitesmoke;
+  
+}
+
+h1 span {
+    font-size: clamp(1rem,9rem,7rem);
+    font-weight: 700;
+    white-space: nowrap;
+    color: var(--clr-mid);
+  
+}
+
+.about-text p {
+    font-size: clamp(1rem,2rem,3rem);
+}
+
+.button-contact {
+    padding: 2rem 5rem 2rem 5rem ;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 5px;
+    color: var(--clr-main);
+    box-shadow: inset;
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+
+}
+

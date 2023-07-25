@@ -1,0 +1,22 @@
+.services {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.services-card {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-color: var(--clr-main);
+    border-radius: 20px;
+    box-shadow: 0 0 30px var(--clr-main);
+}
+
+.card-img {
+    padding-top:5%;
+    height: 25%;
+    margin: auto;
+}
