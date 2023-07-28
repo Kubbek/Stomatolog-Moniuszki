@@ -3,6 +3,13 @@
   .primary-header {
     border-bottom: var(--size-100) solid var(--clr-mid);
     background-color: var(--clr-main);
+    width: 100%;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    z-index: 1;
   }
   
   .nav-wrapper {

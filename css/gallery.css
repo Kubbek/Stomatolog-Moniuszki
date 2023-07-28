@@ -27,10 +27,12 @@
 
 .carousel span:first-child{
     left: -23px;
+    top:50%
 }
 
 .carousel span:last-child{
     right: -23px;
+    top:50%
 }
 
 .wrapper .carousel {
@@ -50,7 +52,7 @@
     pointer-events: none;
 }
 .carousel img {
-    height: 500px;
+    max-height: 80vh;
     width: calc(100% / 5);
     object-fit: cover;
     margin-left: 40px;

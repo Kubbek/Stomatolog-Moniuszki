@@ -2,6 +2,20 @@ const primaryHeader = document.querySelector(".primary-header");
 const navToggle = document.querySelector(".mobile-nav-toggle");
 const primaryNav = document.querySelector(".primary-navigation");
 
+
+//* resize function 
+
+var LETTERS = document.querySelectorAll('.scaling_text');
+
+function resizeText() {
+  LETTERS.forEach(function (letter) {
+    var height = letter.offsetHeight;
+    letter.style.fontSize = height  + 'px';
+    letter.style.lineHeight = height + 'px';
+  });
+}
+
+
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     console.log(entry)
