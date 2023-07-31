@@ -91,6 +91,10 @@ footer p {
   color: var(--clr-light);
 }
 
+.footer-text span {
+  font-size: 2vh;
+  color: var(--clr-mid);
+}
 .phone {
   margin-left: 20px;
   font-size: 2vh;
