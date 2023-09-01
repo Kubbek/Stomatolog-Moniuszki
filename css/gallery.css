@@ -27,12 +27,18 @@
 
 .carousel span:first-child{
     left: -23px;
-    top:50%
+    top:50%;
+    font-size: 40px;
+    background-color: whitesmoke;
+    border: 2px solid var(--clr-mid);
 }
 
 .carousel span:last-child{
     right: -23px;
-    top:50%
+    top:50%;
+    font-size: 40px;
+    background-color: whitesmoke;
+    border: 2px solid var(--clr-mid);
 }
 
 .wrapper .carousel {
