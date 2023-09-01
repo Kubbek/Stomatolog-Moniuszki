@@ -8,7 +8,7 @@
   --clr-main:#19554b;
   --clr-mid: #13B192;
   --clr-dark: #1C1E26;
-  --clr-light: #f5f5f5;
+  --clr-light: #cacac5;
   
   --size-100: 0.25rem;
   --size-200: 0.5rem;
@@ -29,7 +29,7 @@
 }
 
 body {
-  background-color: var(--clr-dark);
+  background-color: var(--clr-light);
 }
 
 section{
@@ -74,32 +74,106 @@ section{
   margin-bottom: 20vh;
 }
 
-
+.outside {
+  width: 50%;
+  margin: auto;
+  border: 2px solid var(--clr-mid);
+}
 
 footer {
+
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 5vh;
-  border-top: 2px solid var(--clr-mid);
-  border-bottom: 2px solid var(--clr-mid);
+  border-top: 4px solid var(--clr-mid);
+  border-bottom: 4px solid var(--clr-mid);
   margin-bottom: 5vh;
+  margin-top: 5vh;
 }
 
 footer p {
-  font-size: 2vh;
-  color: var(--clr-light);
+  text-align: center;
+  font-size: 3vh;
+  font-weight: 600;
+  color: var(--clr-dark);
 }
 
 .footer-text span {
-  font-size: 2vh;
+  font-size: 3vh;
   color: var(--clr-mid);
 }
 .phone {
   margin-left: 20px;
-  font-size: 2vh;
+  font-size: 3vh;
   letter-spacing: 10px;
   font-weight: 600;
   color: var(--clr-mid);
   text-decoration: none;
 }
+
+
+@media (max-width:1000px) {
+
+    .logo-nav{
+      display: none;
+    }
+    .primary-navigation {
+      font-size: 40px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+      background-color: #19554b;
+
+    }
+
+   .about-us {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .about-text{
+      padding-top: 120px;
+      width: 100%;
+    }
+
+    .outside {
+      width:100%
+    }
+    h1{
+      font-size: 25px;
+    }
+
+    h1 span {
+      font-size: 25px;
+    }
+
+    .about-text p {    
+    font-size: 10px;
+    width: 100%;
+    }
+
+    .about-img {
+      position: relative;
+      height: 600px;
+      width: 100vw;
+      margin-left: 38px;
+    }
+  
+    .button-contact{
+      padding: 1rem 3rem 1rem 3rem;
+      font-size: 1.5rem;
+      margin-bottom: 5vh;
+    }
+
+    footer{
+      padding-top: 5vh;
+      padding-bottom: 5vh;
+      padding-left: 2vw;
+    }
+  
+    .phone {
+      margin-top: 5vh;
+      font-size: 20px;
+      text-decoration: underline;
+    }
+    }

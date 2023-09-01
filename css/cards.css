@@ -76,7 +76,7 @@ h3 span {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: var(--clr-light);
+    background-color: rgb(235, 233, 230);
     margin: auto;
     width: 90%;
     min-height: 40rem;

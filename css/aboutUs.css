@@ -1,22 +1,30 @@
 .about-us {
     margin: auto;
     display: flex;
+    flex-direction: row;
 }
 
 .about-img{
-    width: 50%;
-    max-height: auto;
-    
+    position: absolute;
+    right: 5%;
+    top:10%;
+    background-color: red;
+    width: 35%;
+    height: 80%;
+    border: 2px solid var(--clr-mid);
+}
+
+.title {
+    text-align: center;
 }
 .img-modified{
     object-fit:scale-down ;
 }
 
 .about-text {
-    max-width: 60%;
-    margin: auto;
+    width: 50%;
     display: flex;
-    gap: clamp(2rem, 5rem, 8rem);
+    gap: clamp(1vh, 5vh, 10vh);
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -24,15 +32,15 @@
 }
 
  h1  {
-    font-size: clamp(1rem,9rem,7rem);
+    font-size: 70px;
     font-weight: 700;
     white-space: nowrap;
-    color: var(--clr-light);
+    color: var(--clr-dark);
   
 }
 
 h1 span {
-    font-size: clamp(1rem,9rem,7rem);
+    font-size: 70px;
     font-weight: 700;
     color: var(--clr-mid);
   
@@ -40,6 +48,8 @@ h1 span {
 
 .about-text p {
     font-size: clamp(1rem,2rem,3rem);
+    max-width: 80%;
+    color: var(--clr-dark);
 }
 
 .button-contact {
